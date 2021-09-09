@@ -98,3 +98,10 @@ distancias_percorridas_semi_guloso = c(41763,
 )
 mean(distancias_percorridas_semi_guloso)
 sd(distancias_percorridas_guloso)
+
+boxplot(distancias_percorridas_randomicas,
+        distancias_percorridas_guloso,
+        distancias_percorridas_semi_guloso,
+        names = c("Randômico", "Guloso", "Semiguloso"),
+        border = c("red", "blue", "yellow"),
+        varwidth = TRUE)
