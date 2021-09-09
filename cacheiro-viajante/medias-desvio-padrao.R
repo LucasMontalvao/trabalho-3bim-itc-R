@@ -97,7 +97,7 @@ distancias_percorridas_semi_guloso = c(41763,
                                        46995
 )
 mean(distancias_percorridas_semi_guloso)
-sd(distancias_percorridas_guloso)
+sd(distancias_percorridas_semi_guloso)
 
 boxplot(distancias_percorridas_randomicas,
         distancias_percorridas_guloso,
